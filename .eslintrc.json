@@ -16,6 +16,8 @@
     "ecmaVersion": 6
   },
   "rules": {
+    "indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
 	  "react/jsx-indent": ["error", 4],
     "function-paren-newline": ["error", "consistent"],
@@ -23,6 +25,7 @@
     "react/prop-types": [0],
     "no-param-reassign":["error", { "props": false }],
     "no-shadow": "off",
+    "react/jsx-no-tabs": [0],
     "import/no-named-as-default": 0,
     "jsx-a11y/label-has-associated-control": [ "error", {
       "required": {
