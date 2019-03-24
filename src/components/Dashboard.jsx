@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import simpleAction from '../actions/simpleAction';
 
-class App extends Component {
+class Dashboard extends Component {
     constructor() {
         super();
         this.handleClick = this.handleClick.bind(this);
@@ -27,4 +27,4 @@ const mapStateToProps = state => ({
     ...state,
 });
 
-export default connect(mapStateToProps, { simpleAction })(App);
+export default connect(mapStateToProps, { simpleAction })(Dashboard);
