@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "Implementation of challenge 4 in react-redux",
   "main": "index.js",
+  "engines": {
+    "node": "10.15.1"
+  },
   "scripts": {
     "webpack": "babel-node ./node_modules/webpack/bin/webpack",
     "start": "babel-node ./node_modules/webpack-dev-server/bin/webpack-dev-server --open",
     "test": "jest",
     "watch": "jest --watch",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "heroku-prebuild": "npm i yarn; yarn install",
+    "heroku-postbuild": "yarn build"
   },
   "repository": {
     "type": "git",
@@ -58,6 +63,7 @@
   },
   "dependencies": {
     "babel-core": "^7.0.0-bridge.0",
+    "express": "^4.16.4",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-redux": "^6.0.1",
