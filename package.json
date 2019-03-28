@@ -13,7 +13,7 @@
     "watch": "jest --watch",
     "coverage": "jest --coverage",
     "heroku-prebuild": "npm i yarn; yarn install",
-    "heroku-postbuild": "yarn build"
+    "heroku-postbuild": "yarn webpack"
   },
   "repository": {
     "type": "git",
