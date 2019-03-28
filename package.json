@@ -7,14 +7,15 @@
     "node": "10.15.1"
   },
   "scripts": {
-    "webpack": "babel-node ./node_modules/webpack/bin/webpack",
-    "start": "babel-node ./node_modules/webpack-dev-server/bin/webpack-dev-server --open",
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
     "test": "jest",
     "watch": "jest --watch",
     "coverage": "jest --coverage",
-    "heroku-prebuild": "npm i yarn; yarn install",
-    "heroku-postbuild": "yarn webpack"
+    "heroku-prebuild": "npx rimraf package-lock.json npm-shrinkwrap.json node_modules && npm install yarn && yarn install",
+    "heroku-postbuild": "yarn run build"
   },
+  "heroku-run-build-script": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codjoero/sm-frontend.git"
