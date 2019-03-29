@@ -1,3 +1,0 @@
-
-export const A_SIMPLE_ACTION = 'A_SIMPLE_ACTION';
-export const ANOTHER_ACTION = 'ANOTHER_ACTION';
