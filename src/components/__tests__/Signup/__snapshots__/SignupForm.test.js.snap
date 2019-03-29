@@ -1,0 +1,1458 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SignupForm tests it should render without rashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <signupForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Grid
+        relaxed="very"
+        stackable={true}
+      >
+        <Segment
+          className="regSegment"
+          color="green"
+        >
+          <Header
+            as="h1"
+            padded="very"
+            textAlign="center"
+          >
+            Register
+          </Header>
+          <Form
+            as="form"
+          >
+            <div
+              className="spaceComponents"
+            >
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="user"
+                iconPosition="left"
+                name="name"
+                placeholder="Name"
+                required={true}
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="user"
+                iconPosition="left"
+                name="username"
+                placeholder="Username"
+                required={true}
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="lock"
+                iconPosition="left"
+                name="password"
+                placeholder="Password"
+                required={true}
+                type="password"
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="lock"
+                iconPosition="left"
+                name="cPassword"
+                placeholder="Confirm password"
+                required={true}
+                type="password"
+              />
+              <Dropdown
+                additionLabel="Add "
+                additionPosition="top"
+                closeOnBlur={true}
+                deburr={false}
+                fluid={true}
+                icon="dropdown"
+                minCharacters={1}
+                name="role"
+                noResultsMessage="No results found."
+                openOnFocus={true}
+                options={
+                  Array [
+                    Object {
+                      "key": "Admin",
+                      "text": "Admin",
+                      "value": "admin",
+                    },
+                    Object {
+                      "key": "Value",
+                      "text": "Attendant",
+                      "value": "attendant",
+                    },
+                  ]
+                }
+                placeholder="Role"
+                renderLabel={[Function]}
+                required={true}
+                searchInput="text"
+                selectOnBlur={true}
+                selectOnNavigation={true}
+                selection={true}
+                wrapSelection={true}
+              />
+            </div>
+            <div
+              className="spaceComponents"
+            >
+              <Button
+                as="button"
+                basic={true}
+                color="green"
+                fluid={true}
+              >
+                Register
+              </Button>
+            </div>
+          </Form>
+        </Segment>
+      </Grid>,
+      "className": "signForm",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Segment
+          className="regSegment"
+          color="green"
+        >
+          <Header
+            as="h1"
+            padded="very"
+            textAlign="center"
+          >
+            Register
+          </Header>
+          <Form
+            as="form"
+          >
+            <div
+              className="spaceComponents"
+            >
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="user"
+                iconPosition="left"
+                name="name"
+                placeholder="Name"
+                required={true}
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="user"
+                iconPosition="left"
+                name="username"
+                placeholder="Username"
+                required={true}
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="lock"
+                iconPosition="left"
+                name="password"
+                placeholder="Password"
+                required={true}
+                type="password"
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="lock"
+                iconPosition="left"
+                name="cPassword"
+                placeholder="Confirm password"
+                required={true}
+                type="password"
+              />
+              <Dropdown
+                additionLabel="Add "
+                additionPosition="top"
+                closeOnBlur={true}
+                deburr={false}
+                fluid={true}
+                icon="dropdown"
+                minCharacters={1}
+                name="role"
+                noResultsMessage="No results found."
+                openOnFocus={true}
+                options={
+                  Array [
+                    Object {
+                      "key": "Admin",
+                      "text": "Admin",
+                      "value": "admin",
+                    },
+                    Object {
+                      "key": "Value",
+                      "text": "Attendant",
+                      "value": "attendant",
+                    },
+                  ]
+                }
+                placeholder="Role"
+                renderLabel={[Function]}
+                required={true}
+                searchInput="text"
+                selectOnBlur={true}
+                selectOnNavigation={true}
+                selection={true}
+                wrapSelection={true}
+              />
+            </div>
+            <div
+              className="spaceComponents"
+            >
+              <Button
+                as="button"
+                basic={true}
+                color="green"
+                fluid={true}
+              >
+                Register
+              </Button>
+            </div>
+          </Form>
+        </Segment>,
+        "relaxed": "very",
+        "stackable": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Header
+              as="h1"
+              padded="very"
+              textAlign="center"
+            >
+              Register
+            </Header>,
+            <Form
+              as="form"
+            >
+              <div
+                className="spaceComponents"
+              >
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="name"
+                  placeholder="Name"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="cPassword"
+                  placeholder="Confirm password"
+                  required={true}
+                  type="password"
+                />
+                <Dropdown
+                  additionLabel="Add "
+                  additionPosition="top"
+                  closeOnBlur={true}
+                  deburr={false}
+                  fluid={true}
+                  icon="dropdown"
+                  minCharacters={1}
+                  name="role"
+                  noResultsMessage="No results found."
+                  openOnFocus={true}
+                  options={
+                    Array [
+                      Object {
+                        "key": "Admin",
+                        "text": "Admin",
+                        "value": "admin",
+                      },
+                      Object {
+                        "key": "Value",
+                        "text": "Attendant",
+                        "value": "attendant",
+                      },
+                    ]
+                  }
+                  placeholder="Role"
+                  renderLabel={[Function]}
+                  required={true}
+                  searchInput="text"
+                  selectOnBlur={true}
+                  selectOnNavigation={true}
+                  selection={true}
+                  wrapSelection={true}
+                />
+              </div>
+              <div
+                className="spaceComponents"
+              >
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Register
+                </Button>
+              </div>
+            </Form>,
+          ],
+          "className": "regSegment",
+          "color": "green",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "h1",
+              "children": "Register",
+              "padded": "very",
+              "textAlign": "center",
+            },
+            "ref": null,
+            "rendered": "Register",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "form",
+              "children": Array [
+                <div
+                  className="spaceComponents"
+                >
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="name"
+                    placeholder="Name"
+                    required={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="username"
+                    placeholder="Username"
+                    required={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="password"
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="cPassword"
+                    placeholder="Confirm password"
+                    required={true}
+                    type="password"
+                  />
+                  <Dropdown
+                    additionLabel="Add "
+                    additionPosition="top"
+                    closeOnBlur={true}
+                    deburr={false}
+                    fluid={true}
+                    icon="dropdown"
+                    minCharacters={1}
+                    name="role"
+                    noResultsMessage="No results found."
+                    openOnFocus={true}
+                    options={
+                      Array [
+                        Object {
+                          "key": "Admin",
+                          "text": "Admin",
+                          "value": "admin",
+                        },
+                        Object {
+                          "key": "Value",
+                          "text": "Attendant",
+                          "value": "attendant",
+                        },
+                      ]
+                    }
+                    placeholder="Role"
+                    renderLabel={[Function]}
+                    required={true}
+                    searchInput="text"
+                    selectOnBlur={true}
+                    selectOnNavigation={true}
+                    selection={true}
+                    wrapSelection={true}
+                  />
+                </div>,
+                <div
+                  className="spaceComponents"
+                >
+                  <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Register
+                  </Button>
+                </div>,
+              ],
+              "error": undefined,
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    null,
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="user"
+                      iconPosition="left"
+                      name="name"
+                      placeholder="Name"
+                      required={true}
+                    />,
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="user"
+                      iconPosition="left"
+                      name="username"
+                      placeholder="Username"
+                      required={true}
+                    />,
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="lock"
+                      iconPosition="left"
+                      name="password"
+                      placeholder="Password"
+                      required={true}
+                      type="password"
+                    />,
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="lock"
+                      iconPosition="left"
+                      name="cPassword"
+                      placeholder="Confirm password"
+                      required={true}
+                      type="password"
+                    />,
+                    <Dropdown
+                      additionLabel="Add "
+                      additionPosition="top"
+                      closeOnBlur={true}
+                      deburr={false}
+                      fluid={true}
+                      icon="dropdown"
+                      minCharacters={1}
+                      name="role"
+                      noResultsMessage="No results found."
+                      openOnFocus={true}
+                      options={
+                        Array [
+                          Object {
+                            "key": "Admin",
+                            "text": "Admin",
+                            "value": "admin",
+                          },
+                          Object {
+                            "key": "Value",
+                            "text": "Attendant",
+                            "value": "attendant",
+                          },
+                        ]
+                      }
+                      placeholder="Role"
+                      renderLabel={[Function]}
+                      required={true}
+                      searchInput="text"
+                      selectOnBlur={true}
+                      selectOnNavigation={true}
+                      selection={true}
+                      wrapSelection={true}
+                    />,
+                  ],
+                  "className": "spaceComponents",
+                },
+                "ref": null,
+                "rendered": Array [
+                  null,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "control": [Function],
+                      "error": undefined,
+                      "icon": "user",
+                      "iconPosition": "left",
+                      "name": "name",
+                      "onChange": undefined,
+                      "placeholder": "Name",
+                      "required": true,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "control": [Function],
+                      "error": undefined,
+                      "icon": "user",
+                      "iconPosition": "left",
+                      "name": "username",
+                      "onChange": undefined,
+                      "placeholder": "Username",
+                      "required": true,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "control": [Function],
+                      "error": undefined,
+                      "icon": "lock",
+                      "iconPosition": "left",
+                      "name": "password",
+                      "onChange": undefined,
+                      "placeholder": "Password",
+                      "required": true,
+                      "type": "password",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "control": [Function],
+                      "icon": "lock",
+                      "iconPosition": "left",
+                      "name": "cPassword",
+                      "onChange": undefined,
+                      "placeholder": "Confirm password",
+                      "required": true,
+                      "type": "password",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "additionLabel": "Add ",
+                      "additionPosition": "top",
+                      "closeOnBlur": true,
+                      "deburr": false,
+                      "error": undefined,
+                      "fluid": true,
+                      "icon": "dropdown",
+                      "minCharacters": 1,
+                      "name": "role",
+                      "noResultsMessage": "No results found.",
+                      "onChange": undefined,
+                      "openOnFocus": true,
+                      "options": Array [
+                        Object {
+                          "key": "Admin",
+                          "text": "Admin",
+                          "value": "admin",
+                        },
+                        Object {
+                          "key": "Value",
+                          "text": "Attendant",
+                          "value": "attendant",
+                        },
+                      ],
+                      "placeholder": "Role",
+                      "renderLabel": [Function],
+                      "required": true,
+                      "searchInput": "text",
+                      "selectOnBlur": true,
+                      "selectOnNavigation": true,
+                      "selection": true,
+                      "wrapSelection": true,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Register
+                  </Button>,
+                  "className": "spaceComponents",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "as": "button",
+                    "basic": true,
+                    "children": "Register",
+                    "color": "green",
+                    "disabled": undefined,
+                    "fluid": true,
+                    "loading": undefined,
+                    "onClick": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Register",
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Grid
+          relaxed="very"
+          stackable={true}
+        >
+          <Segment
+            className="regSegment"
+            color="green"
+          >
+            <Header
+              as="h1"
+              padded="very"
+              textAlign="center"
+            >
+              Register
+            </Header>
+            <Form
+              as="form"
+            >
+              <div
+                className="spaceComponents"
+              >
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="name"
+                  placeholder="Name"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="cPassword"
+                  placeholder="Confirm password"
+                  required={true}
+                  type="password"
+                />
+                <Dropdown
+                  additionLabel="Add "
+                  additionPosition="top"
+                  closeOnBlur={true}
+                  deburr={false}
+                  fluid={true}
+                  icon="dropdown"
+                  minCharacters={1}
+                  name="role"
+                  noResultsMessage="No results found."
+                  openOnFocus={true}
+                  options={
+                    Array [
+                      Object {
+                        "key": "Admin",
+                        "text": "Admin",
+                        "value": "admin",
+                      },
+                      Object {
+                        "key": "Value",
+                        "text": "Attendant",
+                        "value": "attendant",
+                      },
+                    ]
+                  }
+                  placeholder="Role"
+                  renderLabel={[Function]}
+                  required={true}
+                  searchInput="text"
+                  selectOnBlur={true}
+                  selectOnNavigation={true}
+                  selection={true}
+                  wrapSelection={true}
+                />
+              </div>
+              <div
+                className="spaceComponents"
+              >
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Register
+                </Button>
+              </div>
+            </Form>
+          </Segment>
+        </Grid>,
+        "className": "signForm",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Segment
+            className="regSegment"
+            color="green"
+          >
+            <Header
+              as="h1"
+              padded="very"
+              textAlign="center"
+            >
+              Register
+            </Header>
+            <Form
+              as="form"
+            >
+              <div
+                className="spaceComponents"
+              >
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="name"
+                  placeholder="Name"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="cPassword"
+                  placeholder="Confirm password"
+                  required={true}
+                  type="password"
+                />
+                <Dropdown
+                  additionLabel="Add "
+                  additionPosition="top"
+                  closeOnBlur={true}
+                  deburr={false}
+                  fluid={true}
+                  icon="dropdown"
+                  minCharacters={1}
+                  name="role"
+                  noResultsMessage="No results found."
+                  openOnFocus={true}
+                  options={
+                    Array [
+                      Object {
+                        "key": "Admin",
+                        "text": "Admin",
+                        "value": "admin",
+                      },
+                      Object {
+                        "key": "Value",
+                        "text": "Attendant",
+                        "value": "attendant",
+                      },
+                    ]
+                  }
+                  placeholder="Role"
+                  renderLabel={[Function]}
+                  required={true}
+                  searchInput="text"
+                  selectOnBlur={true}
+                  selectOnNavigation={true}
+                  selection={true}
+                  wrapSelection={true}
+                />
+              </div>
+              <div
+                className="spaceComponents"
+              >
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Register
+                </Button>
+              </div>
+            </Form>
+          </Segment>,
+          "relaxed": "very",
+          "stackable": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Header
+                as="h1"
+                padded="very"
+                textAlign="center"
+              >
+                Register
+              </Header>,
+              <Form
+                as="form"
+              >
+                <div
+                  className="spaceComponents"
+                >
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="name"
+                    placeholder="Name"
+                    required={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="username"
+                    placeholder="Username"
+                    required={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="password"
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="cPassword"
+                    placeholder="Confirm password"
+                    required={true}
+                    type="password"
+                  />
+                  <Dropdown
+                    additionLabel="Add "
+                    additionPosition="top"
+                    closeOnBlur={true}
+                    deburr={false}
+                    fluid={true}
+                    icon="dropdown"
+                    minCharacters={1}
+                    name="role"
+                    noResultsMessage="No results found."
+                    openOnFocus={true}
+                    options={
+                      Array [
+                        Object {
+                          "key": "Admin",
+                          "text": "Admin",
+                          "value": "admin",
+                        },
+                        Object {
+                          "key": "Value",
+                          "text": "Attendant",
+                          "value": "attendant",
+                        },
+                      ]
+                    }
+                    placeholder="Role"
+                    renderLabel={[Function]}
+                    required={true}
+                    searchInput="text"
+                    selectOnBlur={true}
+                    selectOnNavigation={true}
+                    selection={true}
+                    wrapSelection={true}
+                  />
+                </div>
+                <div
+                  className="spaceComponents"
+                >
+                  <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Register
+                  </Button>
+                </div>
+              </Form>,
+            ],
+            "className": "regSegment",
+            "color": "green",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "h1",
+                "children": "Register",
+                "padded": "very",
+                "textAlign": "center",
+              },
+              "ref": null,
+              "rendered": "Register",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "form",
+                "children": Array [
+                  <div
+                    className="spaceComponents"
+                  >
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="user"
+                      iconPosition="left"
+                      name="name"
+                      placeholder="Name"
+                      required={true}
+                    />
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="user"
+                      iconPosition="left"
+                      name="username"
+                      placeholder="Username"
+                      required={true}
+                    />
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="lock"
+                      iconPosition="left"
+                      name="password"
+                      placeholder="Password"
+                      required={true}
+                      type="password"
+                    />
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="lock"
+                      iconPosition="left"
+                      name="cPassword"
+                      placeholder="Confirm password"
+                      required={true}
+                      type="password"
+                    />
+                    <Dropdown
+                      additionLabel="Add "
+                      additionPosition="top"
+                      closeOnBlur={true}
+                      deburr={false}
+                      fluid={true}
+                      icon="dropdown"
+                      minCharacters={1}
+                      name="role"
+                      noResultsMessage="No results found."
+                      openOnFocus={true}
+                      options={
+                        Array [
+                          Object {
+                            "key": "Admin",
+                            "text": "Admin",
+                            "value": "admin",
+                          },
+                          Object {
+                            "key": "Value",
+                            "text": "Attendant",
+                            "value": "attendant",
+                          },
+                        ]
+                      }
+                      placeholder="Role"
+                      renderLabel={[Function]}
+                      required={true}
+                      searchInput="text"
+                      selectOnBlur={true}
+                      selectOnNavigation={true}
+                      selection={true}
+                      wrapSelection={true}
+                    />
+                  </div>,
+                  <div
+                    className="spaceComponents"
+                  >
+                    <Button
+                      as="button"
+                      basic={true}
+                      color="green"
+                      fluid={true}
+                    >
+                      Register
+                    </Button>
+                  </div>,
+                ],
+                "error": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      null,
+                      <FormInput
+                        as={[Function]}
+                        control={[Function]}
+                        icon="user"
+                        iconPosition="left"
+                        name="name"
+                        placeholder="Name"
+                        required={true}
+                      />,
+                      <FormInput
+                        as={[Function]}
+                        control={[Function]}
+                        icon="user"
+                        iconPosition="left"
+                        name="username"
+                        placeholder="Username"
+                        required={true}
+                      />,
+                      <FormInput
+                        as={[Function]}
+                        control={[Function]}
+                        icon="lock"
+                        iconPosition="left"
+                        name="password"
+                        placeholder="Password"
+                        required={true}
+                        type="password"
+                      />,
+                      <FormInput
+                        as={[Function]}
+                        control={[Function]}
+                        icon="lock"
+                        iconPosition="left"
+                        name="cPassword"
+                        placeholder="Confirm password"
+                        required={true}
+                        type="password"
+                      />,
+                      <Dropdown
+                        additionLabel="Add "
+                        additionPosition="top"
+                        closeOnBlur={true}
+                        deburr={false}
+                        fluid={true}
+                        icon="dropdown"
+                        minCharacters={1}
+                        name="role"
+                        noResultsMessage="No results found."
+                        openOnFocus={true}
+                        options={
+                          Array [
+                            Object {
+                              "key": "Admin",
+                              "text": "Admin",
+                              "value": "admin",
+                            },
+                            Object {
+                              "key": "Value",
+                              "text": "Attendant",
+                              "value": "attendant",
+                            },
+                          ]
+                        }
+                        placeholder="Role"
+                        renderLabel={[Function]}
+                        required={true}
+                        searchInput="text"
+                        selectOnBlur={true}
+                        selectOnNavigation={true}
+                        selection={true}
+                        wrapSelection={true}
+                      />,
+                    ],
+                    "className": "spaceComponents",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    null,
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "as": [Function],
+                        "control": [Function],
+                        "error": undefined,
+                        "icon": "user",
+                        "iconPosition": "left",
+                        "name": "name",
+                        "onChange": undefined,
+                        "placeholder": "Name",
+                        "required": true,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "as": [Function],
+                        "control": [Function],
+                        "error": undefined,
+                        "icon": "user",
+                        "iconPosition": "left",
+                        "name": "username",
+                        "onChange": undefined,
+                        "placeholder": "Username",
+                        "required": true,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "as": [Function],
+                        "control": [Function],
+                        "error": undefined,
+                        "icon": "lock",
+                        "iconPosition": "left",
+                        "name": "password",
+                        "onChange": undefined,
+                        "placeholder": "Password",
+                        "required": true,
+                        "type": "password",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "as": [Function],
+                        "control": [Function],
+                        "icon": "lock",
+                        "iconPosition": "left",
+                        "name": "cPassword",
+                        "onChange": undefined,
+                        "placeholder": "Confirm password",
+                        "required": true,
+                        "type": "password",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "additionLabel": "Add ",
+                        "additionPosition": "top",
+                        "closeOnBlur": true,
+                        "deburr": false,
+                        "error": undefined,
+                        "fluid": true,
+                        "icon": "dropdown",
+                        "minCharacters": 1,
+                        "name": "role",
+                        "noResultsMessage": "No results found.",
+                        "onChange": undefined,
+                        "openOnFocus": true,
+                        "options": Array [
+                          Object {
+                            "key": "Admin",
+                            "text": "Admin",
+                            "value": "admin",
+                          },
+                          Object {
+                            "key": "Value",
+                            "text": "Attendant",
+                            "value": "attendant",
+                          },
+                        ],
+                        "placeholder": "Role",
+                        "renderLabel": [Function],
+                        "required": true,
+                        "searchInput": "text",
+                        "selectOnBlur": true,
+                        "selectOnNavigation": true,
+                        "selection": true,
+                        "wrapSelection": true,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                  ],
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Button
+                      as="button"
+                      basic={true}
+                      color="green"
+                      fluid={true}
+                    >
+                      Register
+                    </Button>,
+                    "className": "spaceComponents",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "as": "button",
+                      "basic": true,
+                      "children": "Register",
+                      "color": "green",
+                      "disabled": undefined,
+                      "fluid": true,
+                      "loading": undefined,
+                      "onClick": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Register",
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
