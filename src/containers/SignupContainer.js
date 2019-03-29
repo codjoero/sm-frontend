@@ -12,7 +12,6 @@ export class Register extends Component {
             password: '',
             role: '',
         },
-        error: false,
         nameTouched: false,
         usernameTouched: false,
         passwordTouched: false,
@@ -23,11 +22,12 @@ export class Register extends Component {
 
     inputHandler = (e, { value, options }) => {
         const { userInfo, confirmPassword } = this.state;
+        let { nameTouched, roleTouched } = this.state;
         const updatedUserInfo = { ...userInfo };
-        let nameTouched = false;
+        nameTouched = false;
         let usernameTouched = false;
         let passwordTouched = false;
-        let roleTouched = false;
+        roleTouched = false;
         let disableBtn = true;
         let updatedConfPassword = confirmPassword;
 
