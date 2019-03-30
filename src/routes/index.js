@@ -1,18 +1,18 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.min.css';
 import SignUpContainer from '../containers/SignupContainer';
+import LoginContainer from '../containers/LoginContainer';
 
 const Routes = () => (
-    <div>
-        <BrowserRouter>
+    <Router>
+        <div>
             <Switch>
-                <Route path="/" exact component={SignUpContainer} />
+                <Route path="/" exact component={LoginContainer} />
                 <Route path="/register" component={SignUpContainer} />
             </Switch>
-        </BrowserRouter>
-    </div>
-
+        </div>
+    </Router>
 );
 
 export default Routes;
