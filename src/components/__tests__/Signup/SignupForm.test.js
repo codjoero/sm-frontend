@@ -4,7 +4,7 @@ import SignupForm from '../../Signup/SignupForm';
 
 describe('SignupForm tests', () => {
     const wrapper = shallow(<SignupForm />);
-    it('it should render without rashing', () => {
+    it('it should render without crushing', () => {
         expect(wrapper).toMatchSnapshot();
     });
 });

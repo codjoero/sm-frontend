@@ -1,0 +1,2002 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm tests should render with invalidForm false 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginForm
+    errorMsg=""
+    invalidForm={false}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Grid
+        relaxed="very"
+        stackable={true}
+      >
+        <Segment
+          className="regSegment"
+          color="green"
+        >
+          <Header
+            as="h2"
+            color="green"
+            textAlign="center"
+          >
+            Login
+          </Header>
+          <Form
+            as="form"
+            error={false}
+          >
+            <div
+              className="spaceComponents"
+            >
+              <FormInput
+                as={[Function]}
+                color="red"
+                control={[Function]}
+                icon="user"
+                iconPosition="left"
+                name="username"
+                placeholder="Username"
+                required={true}
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="lock"
+                iconPosition="left"
+                name="password"
+                placeholder="Password"
+                required={true}
+                type="password"
+              />
+              <Button
+                as="button"
+                basic={true}
+                color="green"
+                fluid={true}
+              >
+                Login
+              </Button>
+              <Divider
+                horizontal={true}
+              >
+                or
+              </Divider>
+              <Link
+                to="/register"
+              >
+                <Header
+                  as="h5"
+                  color="blue"
+                  textAlign="center"
+                >
+                  Signup
+                </Header>
+              </Link>
+            </div>
+          </Form>
+        </Segment>
+      </Grid>,
+      "className": "signForm",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Segment
+          className="regSegment"
+          color="green"
+        >
+          <Header
+            as="h2"
+            color="green"
+            textAlign="center"
+          >
+            Login
+          </Header>
+          <Form
+            as="form"
+            error={false}
+          >
+            <div
+              className="spaceComponents"
+            >
+              <FormInput
+                as={[Function]}
+                color="red"
+                control={[Function]}
+                icon="user"
+                iconPosition="left"
+                name="username"
+                placeholder="Username"
+                required={true}
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="lock"
+                iconPosition="left"
+                name="password"
+                placeholder="Password"
+                required={true}
+                type="password"
+              />
+              <Button
+                as="button"
+                basic={true}
+                color="green"
+                fluid={true}
+              >
+                Login
+              </Button>
+              <Divider
+                horizontal={true}
+              >
+                or
+              </Divider>
+              <Link
+                to="/register"
+              >
+                <Header
+                  as="h5"
+                  color="blue"
+                  textAlign="center"
+                >
+                  Signup
+                </Header>
+              </Link>
+            </div>
+          </Form>
+        </Segment>,
+        "relaxed": "very",
+        "stackable": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Header
+              as="h2"
+              color="green"
+              textAlign="center"
+            >
+              Login
+            </Header>,
+            <Form
+              as="form"
+              error={false}
+            >
+              <div
+                className="spaceComponents"
+              >
+                <FormInput
+                  as={[Function]}
+                  color="red"
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Login
+                </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/register"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Signup
+                  </Header>
+                </Link>
+              </div>
+            </Form>,
+          ],
+          "className": "regSegment",
+          "color": "green",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "h2",
+              "children": "Login",
+              "color": "green",
+              "textAlign": "center",
+            },
+            "ref": null,
+            "rendered": "Login",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "form",
+              "children": <div
+                className="spaceComponents"
+              >
+                <FormInput
+                  as={[Function]}
+                  color="red"
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Login
+                </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/register"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Signup
+                  </Header>
+                </Link>
+              </div>,
+              "error": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  null,
+                  <FormInput
+                    as={[Function]}
+                    color="red"
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="username"
+                    placeholder="Username"
+                    required={true}
+                  />,
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="password"
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />,
+                  <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Login
+                  </Button>,
+                  <Divider
+                    horizontal={true}
+                  >
+                    or
+                  </Divider>,
+                  <Link
+                    to="/register"
+                  >
+                    <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Signup
+                    </Header>
+                  </Link>,
+                ],
+                "className": "spaceComponents",
+              },
+              "ref": null,
+              "rendered": Array [
+                null,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": [Function],
+                    "color": "red",
+                    "control": [Function],
+                    "icon": "user",
+                    "iconPosition": "left",
+                    "name": "username",
+                    "onChange": undefined,
+                    "placeholder": "Username",
+                    "required": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": [Function],
+                    "control": [Function],
+                    "icon": "lock",
+                    "iconPosition": "left",
+                    "name": "password",
+                    "onChange": undefined,
+                    "placeholder": "Password",
+                    "required": true,
+                    "type": "password",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "as": "button",
+                    "basic": true,
+                    "children": "Login",
+                    "color": "green",
+                    "disabled": undefined,
+                    "fluid": true,
+                    "loading": undefined,
+                    "onClick": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Login",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "or",
+                    "horizontal": true,
+                  },
+                  "ref": null,
+                  "rendered": "or",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Signup
+                    </Header>,
+                    "to": "/register",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": "h5",
+                      "children": "Signup",
+                      "color": "blue",
+                      "textAlign": "center",
+                    },
+                    "ref": null,
+                    "rendered": "Signup",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Grid
+          relaxed="very"
+          stackable={true}
+        >
+          <Segment
+            className="regSegment"
+            color="green"
+          >
+            <Header
+              as="h2"
+              color="green"
+              textAlign="center"
+            >
+              Login
+            </Header>
+            <Form
+              as="form"
+              error={false}
+            >
+              <div
+                className="spaceComponents"
+              >
+                <FormInput
+                  as={[Function]}
+                  color="red"
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Login
+                </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/register"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Signup
+                  </Header>
+                </Link>
+              </div>
+            </Form>
+          </Segment>
+        </Grid>,
+        "className": "signForm",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Segment
+            className="regSegment"
+            color="green"
+          >
+            <Header
+              as="h2"
+              color="green"
+              textAlign="center"
+            >
+              Login
+            </Header>
+            <Form
+              as="form"
+              error={false}
+            >
+              <div
+                className="spaceComponents"
+              >
+                <FormInput
+                  as={[Function]}
+                  color="red"
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Login
+                </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/register"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Signup
+                  </Header>
+                </Link>
+              </div>
+            </Form>
+          </Segment>,
+          "relaxed": "very",
+          "stackable": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Header
+                as="h2"
+                color="green"
+                textAlign="center"
+              >
+                Login
+              </Header>,
+              <Form
+                as="form"
+                error={false}
+              >
+                <div
+                  className="spaceComponents"
+                >
+                  <FormInput
+                    as={[Function]}
+                    color="red"
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="username"
+                    placeholder="Username"
+                    required={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="password"
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />
+                  <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Login
+                  </Button>
+                  <Divider
+                    horizontal={true}
+                  >
+                    or
+                  </Divider>
+                  <Link
+                    to="/register"
+                  >
+                    <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Signup
+                    </Header>
+                  </Link>
+                </div>
+              </Form>,
+            ],
+            "className": "regSegment",
+            "color": "green",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "h2",
+                "children": "Login",
+                "color": "green",
+                "textAlign": "center",
+              },
+              "ref": null,
+              "rendered": "Login",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "form",
+                "children": <div
+                  className="spaceComponents"
+                >
+                  <FormInput
+                    as={[Function]}
+                    color="red"
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="username"
+                    placeholder="Username"
+                    required={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="password"
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />
+                  <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Login
+                  </Button>
+                  <Divider
+                    horizontal={true}
+                  >
+                    or
+                  </Divider>
+                  <Link
+                    to="/register"
+                  >
+                    <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Signup
+                    </Header>
+                  </Link>
+                </div>,
+                "error": false,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    null,
+                    <FormInput
+                      as={[Function]}
+                      color="red"
+                      control={[Function]}
+                      icon="user"
+                      iconPosition="left"
+                      name="username"
+                      placeholder="Username"
+                      required={true}
+                    />,
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="lock"
+                      iconPosition="left"
+                      name="password"
+                      placeholder="Password"
+                      required={true}
+                      type="password"
+                    />,
+                    <Button
+                      as="button"
+                      basic={true}
+                      color="green"
+                      fluid={true}
+                    >
+                      Login
+                    </Button>,
+                    <Divider
+                      horizontal={true}
+                    >
+                      or
+                    </Divider>,
+                    <Link
+                      to="/register"
+                    >
+                      <Header
+                        as="h5"
+                        color="blue"
+                        textAlign="center"
+                      >
+                        Signup
+                      </Header>
+                    </Link>,
+                  ],
+                  "className": "spaceComponents",
+                },
+                "ref": null,
+                "rendered": Array [
+                  null,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "color": "red",
+                      "control": [Function],
+                      "icon": "user",
+                      "iconPosition": "left",
+                      "name": "username",
+                      "onChange": undefined,
+                      "placeholder": "Username",
+                      "required": true,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "control": [Function],
+                      "icon": "lock",
+                      "iconPosition": "left",
+                      "name": "password",
+                      "onChange": undefined,
+                      "placeholder": "Password",
+                      "required": true,
+                      "type": "password",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "as": "button",
+                      "basic": true,
+                      "children": "Login",
+                      "color": "green",
+                      "disabled": undefined,
+                      "fluid": true,
+                      "loading": undefined,
+                      "onClick": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Login",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "or",
+                      "horizontal": true,
+                    },
+                    "ref": null,
+                    "rendered": "or",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Header
+                        as="h5"
+                        color="blue"
+                        textAlign="center"
+                      >
+                        Signup
+                      </Header>,
+                      "to": "/register",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "as": "h5",
+                        "children": "Signup",
+                        "color": "blue",
+                        "textAlign": "center",
+                      },
+                      "ref": null,
+                      "rendered": "Signup",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
+
+exports[`LoginForm tests should render without crashing 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <LoginForm
+    errorMsg=""
+    invalidForm={true}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <Grid
+        relaxed="very"
+        stackable={true}
+      >
+        <Segment
+          className="regSegment"
+          color="green"
+        >
+          <Header
+            as="h2"
+            color="green"
+            textAlign="center"
+          >
+            Login
+          </Header>
+          <Form
+            as="form"
+            error={true}
+          >
+            <div
+              className="spaceComponents"
+            >
+              <Message
+                content=""
+                error={true}
+              />
+              <FormInput
+                as={[Function]}
+                color="red"
+                control={[Function]}
+                icon="user"
+                iconPosition="left"
+                name="username"
+                placeholder="Username"
+                required={true}
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="lock"
+                iconPosition="left"
+                name="password"
+                placeholder="Password"
+                required={true}
+                type="password"
+              />
+              <Button
+                as="button"
+                basic={true}
+                color="green"
+                fluid={true}
+              >
+                Login
+              </Button>
+              <Divider
+                horizontal={true}
+              >
+                or
+              </Divider>
+              <Link
+                to="/register"
+              >
+                <Header
+                  as="h5"
+                  color="blue"
+                  textAlign="center"
+                >
+                  Signup
+                </Header>
+              </Link>
+            </div>
+          </Form>
+        </Segment>
+      </Grid>,
+      "className": "signForm",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": <Segment
+          className="regSegment"
+          color="green"
+        >
+          <Header
+            as="h2"
+            color="green"
+            textAlign="center"
+          >
+            Login
+          </Header>
+          <Form
+            as="form"
+            error={true}
+          >
+            <div
+              className="spaceComponents"
+            >
+              <Message
+                content=""
+                error={true}
+              />
+              <FormInput
+                as={[Function]}
+                color="red"
+                control={[Function]}
+                icon="user"
+                iconPosition="left"
+                name="username"
+                placeholder="Username"
+                required={true}
+              />
+              <FormInput
+                as={[Function]}
+                control={[Function]}
+                icon="lock"
+                iconPosition="left"
+                name="password"
+                placeholder="Password"
+                required={true}
+                type="password"
+              />
+              <Button
+                as="button"
+                basic={true}
+                color="green"
+                fluid={true}
+              >
+                Login
+              </Button>
+              <Divider
+                horizontal={true}
+              >
+                or
+              </Divider>
+              <Link
+                to="/register"
+              >
+                <Header
+                  as="h5"
+                  color="blue"
+                  textAlign="center"
+                >
+                  Signup
+                </Header>
+              </Link>
+            </div>
+          </Form>
+        </Segment>,
+        "relaxed": "very",
+        "stackable": true,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": Array [
+            <Header
+              as="h2"
+              color="green"
+              textAlign="center"
+            >
+              Login
+            </Header>,
+            <Form
+              as="form"
+              error={true}
+            >
+              <div
+                className="spaceComponents"
+              >
+                <Message
+                  content=""
+                  error={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  color="red"
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Login
+                </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/register"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Signup
+                  </Header>
+                </Link>
+              </div>
+            </Form>,
+          ],
+          "className": "regSegment",
+          "color": "green",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "as": "h2",
+              "children": "Login",
+              "color": "green",
+              "textAlign": "center",
+            },
+            "ref": null,
+            "rendered": "Login",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "as": "form",
+              "children": <div
+                className="spaceComponents"
+              >
+                <Message
+                  content=""
+                  error={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  color="red"
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Login
+                </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/register"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Signup
+                  </Header>
+                </Link>
+              </div>,
+              "error": true,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <Message
+                    content=""
+                    error={true}
+                  />,
+                  <FormInput
+                    as={[Function]}
+                    color="red"
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="username"
+                    placeholder="Username"
+                    required={true}
+                  />,
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="password"
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />,
+                  <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Login
+                  </Button>,
+                  <Divider
+                    horizontal={true}
+                  >
+                    or
+                  </Divider>,
+                  <Link
+                    to="/register"
+                  >
+                    <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Signup
+                    </Header>
+                  </Link>,
+                ],
+                "className": "spaceComponents",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "content": "",
+                    "error": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": [Function],
+                    "color": "red",
+                    "control": [Function],
+                    "icon": "user",
+                    "iconPosition": "left",
+                    "name": "username",
+                    "onChange": undefined,
+                    "placeholder": "Username",
+                    "required": true,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "as": [Function],
+                    "control": [Function],
+                    "icon": "lock",
+                    "iconPosition": "left",
+                    "name": "password",
+                    "onChange": undefined,
+                    "placeholder": "Password",
+                    "required": true,
+                    "type": "password",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "as": "button",
+                    "basic": true,
+                    "children": "Login",
+                    "color": "green",
+                    "disabled": undefined,
+                    "fluid": true,
+                    "loading": undefined,
+                    "onClick": undefined,
+                  },
+                  "ref": null,
+                  "rendered": "Login",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "children": "or",
+                    "horizontal": true,
+                  },
+                  "ref": null,
+                  "rendered": "or",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Signup
+                    </Header>,
+                    "to": "/register",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": "h5",
+                      "children": "Signup",
+                      "color": "blue",
+                      "textAlign": "center",
+                    },
+                    "ref": null,
+                    "rendered": "Signup",
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <Grid
+          relaxed="very"
+          stackable={true}
+        >
+          <Segment
+            className="regSegment"
+            color="green"
+          >
+            <Header
+              as="h2"
+              color="green"
+              textAlign="center"
+            >
+              Login
+            </Header>
+            <Form
+              as="form"
+              error={true}
+            >
+              <div
+                className="spaceComponents"
+              >
+                <Message
+                  content=""
+                  error={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  color="red"
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Login
+                </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/register"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Signup
+                  </Header>
+                </Link>
+              </div>
+            </Form>
+          </Segment>
+        </Grid>,
+        "className": "signForm",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": <Segment
+            className="regSegment"
+            color="green"
+          >
+            <Header
+              as="h2"
+              color="green"
+              textAlign="center"
+            >
+              Login
+            </Header>
+            <Form
+              as="form"
+              error={true}
+            >
+              <div
+                className="spaceComponents"
+              >
+                <Message
+                  content=""
+                  error={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  color="red"
+                  control={[Function]}
+                  icon="user"
+                  iconPosition="left"
+                  name="username"
+                  placeholder="Username"
+                  required={true}
+                />
+                <FormInput
+                  as={[Function]}
+                  control={[Function]}
+                  icon="lock"
+                  iconPosition="left"
+                  name="password"
+                  placeholder="Password"
+                  required={true}
+                  type="password"
+                />
+                <Button
+                  as="button"
+                  basic={true}
+                  color="green"
+                  fluid={true}
+                >
+                  Login
+                </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/register"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Signup
+                  </Header>
+                </Link>
+              </div>
+            </Form>
+          </Segment>,
+          "relaxed": "very",
+          "stackable": true,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <Header
+                as="h2"
+                color="green"
+                textAlign="center"
+              >
+                Login
+              </Header>,
+              <Form
+                as="form"
+                error={true}
+              >
+                <div
+                  className="spaceComponents"
+                >
+                  <Message
+                    content=""
+                    error={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    color="red"
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="username"
+                    placeholder="Username"
+                    required={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="password"
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />
+                  <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Login
+                  </Button>
+                  <Divider
+                    horizontal={true}
+                  >
+                    or
+                  </Divider>
+                  <Link
+                    to="/register"
+                  >
+                    <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Signup
+                    </Header>
+                  </Link>
+                </div>
+              </Form>,
+            ],
+            "className": "regSegment",
+            "color": "green",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "as": "h2",
+                "children": "Login",
+                "color": "green",
+                "textAlign": "center",
+              },
+              "ref": null,
+              "rendered": "Login",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "as": "form",
+                "children": <div
+                  className="spaceComponents"
+                >
+                  <Message
+                    content=""
+                    error={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    color="red"
+                    control={[Function]}
+                    icon="user"
+                    iconPosition="left"
+                    name="username"
+                    placeholder="Username"
+                    required={true}
+                  />
+                  <FormInput
+                    as={[Function]}
+                    control={[Function]}
+                    icon="lock"
+                    iconPosition="left"
+                    name="password"
+                    placeholder="Password"
+                    required={true}
+                    type="password"
+                  />
+                  <Button
+                    as="button"
+                    basic={true}
+                    color="green"
+                    fluid={true}
+                  >
+                    Login
+                  </Button>
+                  <Divider
+                    horizontal={true}
+                  >
+                    or
+                  </Divider>
+                  <Link
+                    to="/register"
+                  >
+                    <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Signup
+                    </Header>
+                  </Link>
+                </div>,
+                "error": true,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <Message
+                      content=""
+                      error={true}
+                    />,
+                    <FormInput
+                      as={[Function]}
+                      color="red"
+                      control={[Function]}
+                      icon="user"
+                      iconPosition="left"
+                      name="username"
+                      placeholder="Username"
+                      required={true}
+                    />,
+                    <FormInput
+                      as={[Function]}
+                      control={[Function]}
+                      icon="lock"
+                      iconPosition="left"
+                      name="password"
+                      placeholder="Password"
+                      required={true}
+                      type="password"
+                    />,
+                    <Button
+                      as="button"
+                      basic={true}
+                      color="green"
+                      fluid={true}
+                    >
+                      Login
+                    </Button>,
+                    <Divider
+                      horizontal={true}
+                    >
+                      or
+                    </Divider>,
+                    <Link
+                      to="/register"
+                    >
+                      <Header
+                        as="h5"
+                        color="blue"
+                        textAlign="center"
+                      >
+                        Signup
+                      </Header>
+                    </Link>,
+                  ],
+                  "className": "spaceComponents",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "content": "",
+                      "error": true,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "color": "red",
+                      "control": [Function],
+                      "icon": "user",
+                      "iconPosition": "left",
+                      "name": "username",
+                      "onChange": undefined,
+                      "placeholder": "Username",
+                      "required": true,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "as": [Function],
+                      "control": [Function],
+                      "icon": "lock",
+                      "iconPosition": "left",
+                      "name": "password",
+                      "onChange": undefined,
+                      "placeholder": "Password",
+                      "required": true,
+                      "type": "password",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "as": "button",
+                      "basic": true,
+                      "children": "Login",
+                      "color": "green",
+                      "disabled": undefined,
+                      "fluid": true,
+                      "loading": undefined,
+                      "onClick": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Login",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "or",
+                      "horizontal": true,
+                    },
+                    "ref": null,
+                    "rendered": "or",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Header
+                        as="h5"
+                        color="blue"
+                        textAlign="center"
+                      >
+                        Signup
+                      </Header>,
+                      "to": "/register",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "as": "h5",
+                        "children": "Signup",
+                        "color": "blue",
+                        "textAlign": "center",
+                      },
+                      "ref": null,
+                      "rendered": "Signup",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": "div",
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

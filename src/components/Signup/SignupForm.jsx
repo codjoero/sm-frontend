@@ -1,8 +1,9 @@
 import React from 'react';
 import {
-    Form, Grid, Segment, Button, Header, Message, Dropdown,
+    Form, Grid, Segment, Button, Header, Message, Dropdown, Divider,
 } from 'semantic-ui-react';
-import './Signup.css';
+import { Link } from 'react-router-dom';
+import '../../assets/startForms.css';
 
 const options = [
     { key: 'Admin', text: 'Admin', value: 'admin' },
@@ -13,7 +14,7 @@ const signupForm = props => (
     <div className="signForm">
         <Grid relaxed="very" stackable>
             <Segment color="green" className="regSegment">
-                <Header as="h1" textAlign="center" padded="very">
+                <Header as="h2" color="green" textAlign="center" padded="very">
                         Register
                 </Header>
                 <Form error={props.setError}>
@@ -86,6 +87,12 @@ const signupForm = props => (
                         >
                                 Register
                         </Button>
+                        <Divider horizontal>or</Divider>
+                        <Link to="/">
+                            <Header as="h5" color="blue" textAlign="center">
+                                Login
+                            </Header>
+                        </Link>
                     </div>
                 </Form>
             </Segment>

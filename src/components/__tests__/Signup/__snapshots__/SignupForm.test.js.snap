@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SignupForm tests it should render without rashing 1`] = `
+exports[`SignupForm tests it should render without crushing 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <signupForm />,
@@ -27,7 +27,8 @@ ShallowWrapper {
           color="green"
         >
           <Header
-            as="h1"
+            as="h2"
+            color="green"
             padded="very"
             textAlign="center"
           >
@@ -123,6 +124,22 @@ ShallowWrapper {
               >
                 Register
               </Button>
+              <Divider
+                horizontal={true}
+              >
+                or
+              </Divider>
+              <Link
+                to="/"
+              >
+                <Header
+                  as="h5"
+                  color="blue"
+                  textAlign="center"
+                >
+                  Login
+                </Header>
+              </Link>
             </div>
           </Form>
         </Segment>
@@ -140,7 +157,8 @@ ShallowWrapper {
           color="green"
         >
           <Header
-            as="h1"
+            as="h2"
+            color="green"
             padded="very"
             textAlign="center"
           >
@@ -236,6 +254,22 @@ ShallowWrapper {
               >
                 Register
               </Button>
+              <Divider
+                horizontal={true}
+              >
+                or
+              </Divider>
+              <Link
+                to="/"
+              >
+                <Header
+                  as="h5"
+                  color="blue"
+                  textAlign="center"
+                >
+                  Login
+                </Header>
+              </Link>
             </div>
           </Form>
         </Segment>,
@@ -250,7 +284,8 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <Header
-              as="h1"
+              as="h2"
+              color="green"
               padded="very"
               textAlign="center"
             >
@@ -346,6 +381,22 @@ ShallowWrapper {
                 >
                   Register
                 </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Login
+                  </Header>
+                </Link>
               </div>
             </Form>,
           ],
@@ -359,8 +410,9 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "as": "h1",
+              "as": "h2",
               "children": "Register",
+              "color": "green",
               "padded": "very",
               "textAlign": "center",
             },
@@ -462,6 +514,22 @@ ShallowWrapper {
                   >
                     Register
                   </Button>
+                  <Divider
+                    horizontal={true}
+                  >
+                    or
+                  </Divider>
+                  <Link
+                    to="/"
+                  >
+                    <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Login
+                    </Header>
+                  </Link>
                 </div>,
               ],
               "error": undefined,
@@ -680,35 +748,98 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": <Button
-                    as="button"
-                    basic={true}
-                    color="green"
-                    fluid={true}
-                  >
-                    Register
-                  </Button>,
+                  "children": Array [
+                    <Button
+                      as="button"
+                      basic={true}
+                      color="green"
+                      fluid={true}
+                    >
+                      Register
+                    </Button>,
+                    <Divider
+                      horizontal={true}
+                    >
+                      or
+                    </Divider>,
+                    <Link
+                      to="/"
+                    >
+                      <Header
+                        as="h5"
+                        color="blue"
+                        textAlign="center"
+                      >
+                        Login
+                      </Header>
+                    </Link>,
+                  ],
                   "className": "spaceComponents",
                 },
                 "ref": null,
-                "rendered": Object {
-                  "instance": null,
-                  "key": undefined,
-                  "nodeType": "class",
-                  "props": Object {
-                    "as": "button",
-                    "basic": true,
-                    "children": "Register",
-                    "color": "green",
-                    "disabled": undefined,
-                    "fluid": true,
-                    "loading": undefined,
-                    "onClick": undefined,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "as": "button",
+                      "basic": true,
+                      "children": "Register",
+                      "color": "green",
+                      "disabled": undefined,
+                      "fluid": true,
+                      "loading": undefined,
+                      "onClick": undefined,
+                    },
+                    "ref": null,
+                    "rendered": "Register",
+                    "type": [Function],
                   },
-                  "ref": null,
-                  "rendered": "Register",
-                  "type": [Function],
-                },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "children": "or",
+                      "horizontal": true,
+                    },
+                    "ref": null,
+                    "rendered": "or",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <Header
+                        as="h5"
+                        color="blue"
+                        textAlign="center"
+                      >
+                        Login
+                      </Header>,
+                      "to": "/",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "as": "h5",
+                        "children": "Login",
+                        "color": "blue",
+                        "textAlign": "center",
+                      },
+                      "ref": null,
+                      "rendered": "Login",
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
                 "type": "div",
               },
             ],
@@ -736,7 +867,8 @@ ShallowWrapper {
             color="green"
           >
             <Header
-              as="h1"
+              as="h2"
+              color="green"
               padded="very"
               textAlign="center"
             >
@@ -832,6 +964,22 @@ ShallowWrapper {
                 >
                   Register
                 </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Login
+                  </Header>
+                </Link>
               </div>
             </Form>
           </Segment>
@@ -849,7 +997,8 @@ ShallowWrapper {
             color="green"
           >
             <Header
-              as="h1"
+              as="h2"
+              color="green"
               padded="very"
               textAlign="center"
             >
@@ -945,6 +1094,22 @@ ShallowWrapper {
                 >
                   Register
                 </Button>
+                <Divider
+                  horizontal={true}
+                >
+                  or
+                </Divider>
+                <Link
+                  to="/"
+                >
+                  <Header
+                    as="h5"
+                    color="blue"
+                    textAlign="center"
+                  >
+                    Login
+                  </Header>
+                </Link>
               </div>
             </Form>
           </Segment>,
@@ -959,7 +1124,8 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Header
-                as="h1"
+                as="h2"
+                color="green"
                 padded="very"
                 textAlign="center"
               >
@@ -1055,6 +1221,22 @@ ShallowWrapper {
                   >
                     Register
                   </Button>
+                  <Divider
+                    horizontal={true}
+                  >
+                    or
+                  </Divider>
+                  <Link
+                    to="/"
+                  >
+                    <Header
+                      as="h5"
+                      color="blue"
+                      textAlign="center"
+                    >
+                      Login
+                    </Header>
+                  </Link>
                 </div>
               </Form>,
             ],
@@ -1068,8 +1250,9 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "function",
               "props": Object {
-                "as": "h1",
+                "as": "h2",
                 "children": "Register",
+                "color": "green",
                 "padded": "very",
                 "textAlign": "center",
               },
@@ -1171,6 +1354,22 @@ ShallowWrapper {
                     >
                       Register
                     </Button>
+                    <Divider
+                      horizontal={true}
+                    >
+                      or
+                    </Divider>
+                    <Link
+                      to="/"
+                    >
+                      <Header
+                        as="h5"
+                        color="blue"
+                        textAlign="center"
+                      >
+                        Login
+                      </Header>
+                    </Link>
                   </div>,
                 ],
                 "error": undefined,
@@ -1389,35 +1588,98 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": <Button
-                      as="button"
-                      basic={true}
-                      color="green"
-                      fluid={true}
-                    >
-                      Register
-                    </Button>,
+                    "children": Array [
+                      <Button
+                        as="button"
+                        basic={true}
+                        color="green"
+                        fluid={true}
+                      >
+                        Register
+                      </Button>,
+                      <Divider
+                        horizontal={true}
+                      >
+                        or
+                      </Divider>,
+                      <Link
+                        to="/"
+                      >
+                        <Header
+                          as="h5"
+                          color="blue"
+                          textAlign="center"
+                        >
+                          Login
+                        </Header>
+                      </Link>,
+                    ],
                     "className": "spaceComponents",
                   },
                   "ref": null,
-                  "rendered": Object {
-                    "instance": null,
-                    "key": undefined,
-                    "nodeType": "class",
-                    "props": Object {
-                      "as": "button",
-                      "basic": true,
-                      "children": "Register",
-                      "color": "green",
-                      "disabled": undefined,
-                      "fluid": true,
-                      "loading": undefined,
-                      "onClick": undefined,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "as": "button",
+                        "basic": true,
+                        "children": "Register",
+                        "color": "green",
+                        "disabled": undefined,
+                        "fluid": true,
+                        "loading": undefined,
+                        "onClick": undefined,
+                      },
+                      "ref": null,
+                      "rendered": "Register",
+                      "type": [Function],
                     },
-                    "ref": null,
-                    "rendered": "Register",
-                    "type": [Function],
-                  },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "children": "or",
+                        "horizontal": true,
+                      },
+                      "ref": null,
+                      "rendered": "or",
+                      "type": [Function],
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "children": <Header
+                          as="h5"
+                          color="blue"
+                          textAlign="center"
+                        >
+                          Login
+                        </Header>,
+                        "to": "/",
+                      },
+                      "ref": null,
+                      "rendered": Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "function",
+                        "props": Object {
+                          "as": "h5",
+                          "children": "Login",
+                          "color": "blue",
+                          "textAlign": "center",
+                        },
+                        "ref": null,
+                        "rendered": "Login",
+                        "type": [Function],
+                      },
+                      "type": [Function],
+                    },
+                  ],
                   "type": "div",
                 },
               ],

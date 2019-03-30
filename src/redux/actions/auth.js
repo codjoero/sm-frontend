@@ -29,3 +29,33 @@ export const registerUserAction = userInfo => async (dispatch) => {
         dispatch(registerUserFailed(error.response.data));
     }
 };
+
+export const userLoginStarted = () => ({
+    type: actionTypes.LOGIN_USER_START,
+});
+
+export const userLoginSucceded = data => ({
+    type: actionTypes.LOGIN_USER_SUCCESS,
+    data,
+});
+
+export const userLoginFailed = error => ({
+    type: actionTypes.LOGIN_USER_FAIL,
+    error,
+});
+
+export const loginUserAction = userInfo => async (dispatch) => {
+    dispatch(userLoginStarted());
+    const data = {};
+    data.username = userInfo.username;
+    data.password = userInfo.password;
+    try {
+        const response = await axios.post(`${actionTypes.BASE_URL}/login`, data);
+        dispatch(userLoginSucceded(response.data));
+        const { token, user: { username } } = response.data;
+        localStorage.setItem('username', username);
+        localStorage.setItem('token', token);
+    } catch (error) {
+        dispatch(userLoginFailed(error.response.data));
+    }
+};

@@ -12,3 +12,7 @@
 .regSegment {
     width: 50vh !important;
 }
+
+h5.ui.center.aligned.header {
+    margin-top: 0;
+}
