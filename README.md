@@ -8,6 +8,11 @@ This is a web application that helps store owners manage sales and product inven
 ### Deployment
 The application's [UI](https://sm-frontend-ronnie.herokuapp.com/) and [backend](https://thecodestoremanager-api-heroku.herokuapp.com/) are deployed on heroku 
 
+#### UI Login credentials
+> username: bambobee
+> password: Treysongs1
+
+
 ### Tech:
 - Javascript/ReactJS
 - HTML
