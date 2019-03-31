@@ -59,3 +59,33 @@ export const loginUserAction = userInfo => async (dispatch) => {
         dispatch(userLoginFailed(error.response.data));
     }
 };
+
+export const userIsAdmin = () => ({
+    type: actionTypes.USER_IS_ADMIN,
+});
+
+export const logoutUserAction = () => {
+    localStorage.removeItem('token');
+    localStorage.removeItem('username');
+    return {
+        type: actionTypes.LOGOUT_USER,
+    };
+};
+
+export const loginUserAgain = token => ({
+    type: actionTypes.LOGIN_USER_AGAIN,
+    token,
+});
+
+export const autoLoginAction = () => async (dispatch) => {
+    const username = localStorage.getItem('username');
+    const token = localStorage.getItem('token');
+    if (username !== null && token !== null) {
+        if (username === 'admin') {
+            dispatch(userIsAdmin());
+        }
+        dispatch(loginUserAgain(token));
+    } else {
+        dispatch(logoutUserAction());
+    }
+};

@@ -33,6 +33,28 @@ const loginReducer = (state = intialState, action) => {
             loading: false,
             error: action.error,
         };
+    case actionTypes.USER_IS_ADMIN:
+        return {
+            ...state,
+            isAdmin: true,
+        };
+    case actionTypes.LOGIN_USER_AGAIN:
+        return {
+            ...state,
+            isAuthenticated: true,
+            loading: false,
+            error: null,
+            token: action.token,
+        };
+    case actionTypes.LOGOUT_USER:
+        return {
+            ...state,
+            loading: false,
+            error: null,
+            isAuthenticated: false,
+            isAdmin: false,
+            token: null,
+        };
     default:
         return state;
     }

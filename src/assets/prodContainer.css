@@ -1,0 +1,10 @@
+.ProductsLoader {
+    height: 92vh;
+    display: grid;
+    align-items: center;
+}
+
+.AllProducts {
+    height: 92vh;
+    margin: 5vh;
+}

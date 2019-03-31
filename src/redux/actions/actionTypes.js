@@ -6,5 +6,13 @@ export const REGISTER_USER_ENDED = 'REGISTER_USER_ENDED';
 export const LOGIN_USER_START = 'LOGIN_USER_START';
 export const LOGIN_USER_SUCCESS = 'LOGIN_USER_SUCCESS';
 export const LOGIN_USER_FAIL = 'LOGIN_USER_FAIL';
+export const LOGOUT_USER = 'LOGOUT_USER';
+export const LOGIN_USER_AGAIN = 'LOGIN_USER_AGAIN';
+
+export const USER_IS_ADMIN = 'USER_IS_ADMIN';
+
+export const GET_ALL_PRODUCTS_START = 'GET_ALL_PRODUCTS_START';
+export const GET_ALL_PRODUCTS_SUCCESSED = 'GET_ALL_PRODUCTS_SUCCESSED';
+export const GET_ALL_PRODUCTS_FAIL = 'GET_ALL_PRODUCTS_FAIL';
 
 export const BASE_URL = 'https://thecodestoremanager-api-heroku.herokuapp.com/api/v1';
