@@ -53,7 +53,7 @@ export class LoginContainer extends Component {
         let errorInfo = false;
 
         if (this.props.isAuthenticated) {
-            redirectHome = (<Redirect to="/home" />);
+            redirectHome = (<Redirect to="/products" />);
         } else if (this.props.error !== null) {
             errorMsg = this.props.error.message;
             errorInfo = true;

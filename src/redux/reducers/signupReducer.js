@@ -5,12 +5,7 @@ const intialState = {
     loading: false,
     error: '',
 };
-
 const signupReducer = (state = intialState, action) => {
-    if (typeof action === 'undefined') {
-        return state;
-    }
-
     switch (action.type) {
     case actionTypes.REGISTER_USER_STARTED:
         return {
@@ -37,5 +32,4 @@ const signupReducer = (state = intialState, action) => {
         return state;
     }
 };
-
 export default signupReducer;

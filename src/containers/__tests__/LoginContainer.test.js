@@ -23,7 +23,7 @@ describe('LoginContainer tests', () => {
         expect(mapStateToProps(currentState)).toEqual({ ...currentState.login });
     });
 
-    it('should dispatch state to props', () => {
+    it('should map dispatch to props', () => {
         const dispatch = jest.fn();
         mapDispatchToProps(dispatch).userLoginDispatch();
         expect(dispatch.mock.calls.length).toBe(1);
